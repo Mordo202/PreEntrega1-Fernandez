@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+
+* {
+    font-family: 'Lumanosimo', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/fondo\ body.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    border-style: solid;
+    border-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
